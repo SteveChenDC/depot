@@ -50,14 +50,20 @@ GEM
     mail (2.5.5)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    method_source (0.9.0)
+    method_source (0.8.2)
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.13.1)
     polyglot (0.3.5)
-    pry (0.11.3)
+    pry (0.10.4)
       coderay (~> 1.1.0)
-      method_source (~> 0.9.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-nav (0.2.4)
+      pry (>= 0.9.10, < 0.11.0)
+    pry-remote (0.1.8)
+      pry (~> 0.9)
+      slop (~> 3.0)
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -84,6 +90,7 @@ GEM
       sprockets-rails (~> 2.0)
     sdoc (1.0.0)
       rdoc (>= 5.0)
+    slop (3.6.0)
     sprockets (2.12.5)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -103,7 +110,7 @@ GEM
     turbolinks (5.2.0)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (0.3.54)
+    tzinfo (0.3.55)
     uglifier (4.1.19)
       execjs (>= 0.3.0, < 3)
 
@@ -115,6 +122,8 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   pry
+  pry-nav
+  pry-remote
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
   sdoc
